@@ -1,0 +1,18 @@
+sname=input('enter name : ')
+sno=int(input('enter sno : '))
+group=input('enter group : ')
+s1=int(input('enter English marks : ' ))
+s2=int(input('enter Hindi marks : '))
+s3=int(input('enter Entrepreneurship marks : '))
+s4=int(input('enter Java marks : ' ))
+s5=int(input('enter AFM marks : '))
+s6=int(input('enter OS marks : '))
+if s1<35 and s2<35 and s3<35 and s4<35 and s5<35 and s6<35 :
+    print('FAIL')
+else:
+    print('PASS')
+        
+tot=s1+s2+s3+s4+s5+s6
+print('total marks : ',tot)
+avg =float(tot/6)
+print('average :  %.2f' %avg)
